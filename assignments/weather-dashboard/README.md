@@ -33,7 +33,8 @@ Temperature: 34℃
 Condition: Sunny
 Humidity: 32%
 Windspeed: 4km/h
-Check another city? (y/n):```
+Check another city? (y/n):
+```
 
 ## System Information
 The executable file ```./sysinfo.sh```

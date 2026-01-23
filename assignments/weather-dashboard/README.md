@@ -24,7 +24,6 @@ chmod +x *.sh```
 6) Get weather data for any city of your choice!
 
 Sample Output: 
-=============
 ```
 Enter a city e.g London, Italy etc: lekki
 
@@ -50,7 +49,6 @@ How to Use
 ./sysinfo.sh --network```
 
 Sample Output:
-=============
 ```
 ==== System Information ====
 Date and Time: Fri, Jan 23, 2026 12:11:29 PM
@@ -61,7 +59,6 @@ Files in Current Directory: 13
 ```
 
 Sample Output(Network Info):
-===========================
 ```
 ==== Network Information ====
 

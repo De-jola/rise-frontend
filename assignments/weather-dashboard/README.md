@@ -23,6 +23,18 @@ chmod +x *.sh```
 5) Run ./weather.sh and follow the prompt
 6) Get weather data for any city of your choice!
 
+Sample Output: ```
+Enter a city e.g London, Italy etc: lekki
+
+====Weather Information====
+City: Ebute Leki
+Temperature: 34℃
+Condition: Sunny
+Humidity: 32%
+Windspeed: 4km/h
+============================
+Check another city? (y/n):```
+
 ## System Information
 The executable file ```./sysinfo.sh```
 provides data about user system. 
@@ -36,6 +48,27 @@ How to Use
 3) To get just network information, add the network flag. Run: ```
 ./sysinfo.sh --network```
 
+Sample Output:```
+==== System Information ====
+Date and Time: Fri, Jan 23, 2026 12:11:29 PM
+Username: john
+Current Directory: /c/Users/john/Documents/rise-frontend/assignments/weather-dashboard
+Home Directory: /c/Users/john
+Files in Current Directory: 13
+============================
+```
+
+Sample Output(Network Info):```
+==== Network Information ====
+
+Hostname: Dell-laptop17
+Non-authoritative answer:
+Connected✅
+Google IP: 2a00:1450:4007:80d::200e
+
+=============================
+```
+
 ## System Dashboard
 This file provides a dashboard with a menu of what action you wish to take.
 You have to select from numbers ```(1-4)```
@@ -46,3 +79,5 @@ How to Use
 1) Run ```./dashboard.sh```
 2) Select from the dropdown menu 
 3) Have fun! :)
+
+Sample Output:

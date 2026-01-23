@@ -1,24 +1,19 @@
-============================
-README
-============================
-
-========================================================================== PROJECT DESCRIPTION ==================================================================================
-This Project highlights creating executable scripts in the command line(CLI). I used Hyper Terminal for this project.
-There are three executable files which would be expanded below
-
-======= Weather Information =======
-This section makes use of the API from "https://wttr.in/{CITY}?fromat=j1" to populate the extracted information table. User has to input whatever city they can think of in order to
-get weather information on it. Please note that this API makes use of cities not countries or states or continents.
-****What I learned****
-In this section, i learned how to call from an API and handle connection errors and errors from invalid inputs.
-****Problems I faced****
-I had issues using "grep" to find the exact keys in the json file format. Turns out grep is very sensitive even to spaces.
-****How i solved them****
-I made use of available resources online to explain the errors i faced and brainstormed to solve it.
-****How to Use****
-run "./weather.sh" and follow the prompts. When asked to input a city, type in the city you wish to get weather data for. You would then be prompted to check for another city if you
-wish to. 
-
-
-
-
+PROJECT DESCRIPTION
+-------------------
+This project consists of three executable files, how to run them and snippets of expected results. The executable files are 
+```./weather.sh
+./sysinfo.sh
+./dashboard.sh
+```
+Weather Information
+-------------------
+The executable file ```./weather.sh```
+connects to the API ```https://wtrr.in/{CITY}?format=j1 ```
+and extracts weather data for whatever city is queried.
+===How to Use===
+1) Clone this repository on your local device
+2) Open your terminal (I recommend using ```Git Bash or Hyper```
+for this project)
+3) In the directory of the cloned repository, navigate to ./weather.sh which is located inside the weather-dashboard/ folder.
+4) Run ./weather.sh and follow the prompt
+5) Get weather data for any city of your choice!

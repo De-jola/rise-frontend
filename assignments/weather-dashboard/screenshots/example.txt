@@ -1,0 +1,136 @@
+$ ./weather.sh 
+Enter a city e.g London, Italy etc: Ikeja
+
+====Weather Information====
+City: Ikeja
+Temperature: 27℃
+Condition: Clear
+Humidity: 70%
+Windspeed: 9km/h
+============================
+Check another city? (y/n): y
+Enter a city e.g London, Italy etc: Vancouver
+
+====Weather Information====
+City: Vancouver
+Temperature: 5℃
+Condition: Sunny
+Humidity: 93%
+Windspeed: 7km/h
+============================
+Check another city? (y/n): n
+
+./sysinfo.sh --system
+==== System Information ====
+Date and Time: Sat, Jan 24, 2026 12:55:48 AM
+Username: ANU
+Current Directory: /c/Users/ANU/OneDrive/Documents/rise-frontend/assignments/weather-dashboard
+Home Directory: /c/Users/ANU
+Files in Current Directory: 5
+============================
+
+ ./sysinfo.sh --network
+==== Network Information ====
+
+Hostname: Dell-laptop17
+Non-authoritative answer:
+Connected✅
+Google IP: 2c0f:fb50:4003:801::200e
+
+=============================
+
+ ./dashboard.sh 
+Press Enter to continue...
+=================================
+  SYSTEM DASHBOARD
+=================================
+
+1. Check Weather ☁️
+2. View System Info
+3. View Network Info
+4. Exit
+
+=================================
+Enter choice (1-4): 1
+
+Enter a city e.g London, Italy etc: london
+
+====Weather Information====
+City: London
+Temperature: 7℃
+Condition: Partly cloudy
+Humidity: 81%
+Windspeed: 18km/h
+============================
+Check another city? (y/n): n
+Press Enter to continue...
+=================================
+  SYSTEM DASHBOARD
+=================================
+
+1. Check Weather ☁️
+2. View System Info
+3. View Network Info
+4. Exit
+
+=================================
+Enter choice (1-4): 3
+
+==== Network Information ====
+
+Hostname: Dell-laptop17
+Non-authoritative answer:
+Connected✅
+Google IP: 2c0f:fb50:4003:801::200e
+
+=============================
+
+Press Enter to continue...
+=================================
+  SYSTEM DASHBOARD
+=================================
+
+1. Check Weather ☁️
+2. View System Info
+3. View Network Info
+4. Exit
+
+=================================
+Enter choice (1-4): 5
+
+Invalid
+Press Enter to continue...
+=================================
+  SYSTEM DASHBOARD
+=================================
+
+1. Check Weather ☁️
+2. View System Info
+3. View Network Info
+4. Exit
+
+=================================
+Enter choice (1-4): 2
+
+==== System Information ====
+Date and Time: Sat, Jan 24, 2026 12:56:40 AM
+Username: ANU
+Current Directory: /c/Users/ANU/OneDrive/Documents/rise-frontend/assignments/weather-dashboard
+Home Directory: /c/Users/ANU
+Files in Current Directory: 5
+============================
+
+Press Enter to continue...
+=================================
+  SYSTEM DASHBOARD
+=================================
+
+1. Check Weather ☁️
+2. View System Info
+3. View Network Info
+4. Exit
+
+=================================
+Enter choice (1-4): 4
+
+Goodbye...
